@@ -1,0 +1,31 @@
+CUDA_VISIBLE_DEVICES='0,1' python ../train.py \
+--dataroot /data/GAN-RS/AB \
+--name UW_pix2pix384 \
+--suffix unet128 \
+--model pix2pix \
+--which_model_netG unet_128 \
+--which_direction AtoB \
+--dataset_mode aligned \
+--norm batch \
+--pool_size 0 \
+--checkpoints_dir ../checkpoints \
+--save_epoch_freq 5 \
+--batchSize 2 \
+--display_winsize 320 \
+--display_id 100 \
+--display_freq 1 \
+--print_freq 100 \
+--lr_policy 'lambda' \
+--lr 0.0002 \
+--niter 50 \
+--niter_decay 50 \
+--gpu_ids '0,1' \
+--loadSize 384 \
+--fineSize 384 \
+--which_model_netD 'basic' \
+--n_layers_D 4 \
+--n_layers_U 5 \
+--lambda_A 30 \
+--lambda_U 5 \
+--lambda_GAN 1
+#'resnet_9blocks' \
