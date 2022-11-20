@@ -1,9 +1,8 @@
-# Introduction
+# VDMO-Servey
 
 This project involves pretty outstanding and typical works with respect to underwater image enhancement and detection, which consists of model-based restoration, model-free enhancement, data-driven image-to-image conversion, one- and two-stage detectors.
 
 In addition, both the underwater image enhancement and detection datasets have been provided, which can be downloaded from Baidu Cloud: https://pan.baidu.com/s/1NM-Ur-3yO34Y74FcjmMn6w (password: ziz5).
-
 
 # Requirements
 PyTorch==1.7.0  
