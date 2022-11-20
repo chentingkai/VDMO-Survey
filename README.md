@@ -9,8 +9,8 @@ In addition, both the underwater image enhancement and detection datasets have b
 PyTorch==1.7.0  
 Cuda==10.2  
 Pillow==9.2.0  
-torchvision==0.8.0  
-numpy==1.21.5  
+TorchVision==0.8.0  
+Numpy==1.21.5  
 
 
 # Contact Us
